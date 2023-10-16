@@ -49,18 +49,6 @@ cmake_ninja_workdir = /Users/maksymkhodakov/CLionProjects/SysProgLab2/cmake-buil
 
 build cmake_object_order_depends_target_SysProgLab2: phony || CMakeFiles/SysProgLab2.dir
 
-build CMakeFiles/SysProgLab2.dir/main.c.o: C_COMPILER__SysProgLab2_Debug /Users/maksymkhodakov/CLionProjects/SysProgLab2/main.c || cmake_object_order_depends_target_SysProgLab2
-  DEP_FILE = CMakeFiles/SysProgLab2.dir/main.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/SysProgLab2.dir
-  OBJECT_FILE_DIR = CMakeFiles/SysProgLab2.dir
-
-build CMakeFiles/SysProgLab2.dir/worker.c.o: C_COMPILER__SysProgLab2_Debug /Users/maksymkhodakov/CLionProjects/SysProgLab2/worker.c || cmake_object_order_depends_target_SysProgLab2
-  DEP_FILE = CMakeFiles/SysProgLab2.dir/worker.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/SysProgLab2.dir
-  OBJECT_FILE_DIR = CMakeFiles/SysProgLab2.dir
-
 build CMakeFiles/SysProgLab2.dir/Automata.cpp.o: CXX_COMPILER__SysProgLab2_Debug /Users/maksymkhodakov/CLionProjects/SysProgLab2/Automata.cpp || cmake_object_order_depends_target_SysProgLab2
   DEP_FILE = CMakeFiles/SysProgLab2.dir/Automata.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu++14
@@ -75,7 +63,7 @@ build CMakeFiles/SysProgLab2.dir/Automata.cpp.o: CXX_COMPILER__SysProgLab2_Debug
 #############################################
 # Link the executable SysProgLab2
 
-build SysProgLab2: CXX_EXECUTABLE_LINKER__SysProgLab2_Debug CMakeFiles/SysProgLab2.dir/main.c.o CMakeFiles/SysProgLab2.dir/worker.c.o CMakeFiles/SysProgLab2.dir/Automata.cpp.o
+build SysProgLab2: CXX_EXECUTABLE_LINKER__SysProgLab2_Debug CMakeFiles/SysProgLab2.dir/Automata.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/SysProgLab2.dir
   POST_BUILD = :

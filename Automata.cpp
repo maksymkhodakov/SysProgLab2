@@ -101,7 +101,7 @@ w1 = "aa", w2 = "bb"
 Reason: No word starts with "aa" and ends with "bb" that's accepted by the automaton.
  */
 int main() {
-    Automaton automaton = readAutomatonFromFile("/Users/maksymkhodakov/CLionProjects/SysProgLab2/automation.txt");
+    Automaton automaton = readAutomatonFromFile("../automation.txt");
     std::string w1, w2;
 
     std::cout << "Enter w1: ";
